@@ -3,7 +3,7 @@
  Alunos: Heitor Sardinha Gonçalves Paiva
 	 Gabriel Afonso
 	 Mateus Filgueira
-	 Pedro Ferreira
+	 Pedro Ferreira Galvão Neto
 
 
 # Getting Started with Create React App
