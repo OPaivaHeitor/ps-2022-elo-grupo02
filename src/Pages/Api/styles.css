@@ -11,6 +11,11 @@
   padding: 20px;
 }
 
+.image{ /* mudar valores conforme necessário para encaixar no retângulo da página */
+  height: 200px;
+  width: 200px;
+}
+
 
 body {
   font-family: 'Poppins', sans-serif;
