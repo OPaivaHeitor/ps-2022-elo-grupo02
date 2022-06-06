@@ -7,13 +7,6 @@ import "./styles.css";
 export function Api(){
     const [data, setData] = useState({})
     
-    
-    const estiloLink = {
-        margin: "1rem",
-        textDecoration: "none",
-        color: "white",
-    }
-    
     const refreshPage = ()=>{
         window.location.reload();
     }
@@ -35,7 +28,7 @@ export function Api(){
                 <img src={data} />
             </div>
             <button onClick={refreshPage} className="btn">Recarregar</button>
-            <button className='btn'><Link to ="/" style={estiloLink}>Home</Link></button>
+            <Link to ="/" className='link'>Home</Link>
         </div>
     )
 }

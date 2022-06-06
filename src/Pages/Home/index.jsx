@@ -4,17 +4,28 @@ import "./styles.css";
 
 export function Home() {
 
-    const estiloLink = {
-        margin: "1rem",
-        textDecoration: "none",
-        color: "white",
-    }
-
-
     return(
         <div>
-            <h1>Home</h1>
-            <button className="btn"><Link to="/api" style={estiloLink}>Api</Link></button>
+            <h1 className="title">ELO DOG</h1>
+                <div className="Box"> 
+                    <div className="container borda-azul">   
+                        <p className="parágrafo borda-azul"> <span>O cão </span>acompanha já acompanha a humanidade a milhares de anos, 
+                        isso com certeza tem um motivo, 
+                        por que não tentar criar um laço com o melhor amigo do homem e ver com os próprios olhos a alegria que esse animalzinho ao seu lado pode te proporcionar. </p>
+                    <h1 className="header">Motivos para adotar um pet</h1>
+                    </div>
+                    <div className="container"> <Link to="/api" className="link">Aperte aqui para achar um doguinho que combina contigo</Link> </div>
+                </div>
+           
+
+            {/* <div className="container">
+                
+            </div> */}
+
+            
+            
+            
+            
         </div>
     )
 }
