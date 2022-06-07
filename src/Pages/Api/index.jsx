@@ -2,7 +2,7 @@ import React from "react";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import "./styles.css";
+import "./api.css";
 
 export function Api() {
   const [data, setData] = useState({});
@@ -25,13 +25,13 @@ export function Api() {
   return (
     <div>
       <div className="imagem">
-        <img src={data} />
+        <img src={data} width={500} height={500}/>
       </div>
       <button onClick={refreshPage} className="btn">
-        Recarregar
+        Quero ver outro dog!
       </button>
-      <Link to="/" className="link">
-        Home
+      <Link to="/" className="btn">
+        Voltar para Home
       </Link>
     </div>
   );

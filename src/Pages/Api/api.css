@@ -6,67 +6,41 @@
   padding: 0;
 }
 
-body {
-  font-family: 'David', libre;
-  background-color: #E6CA31;
+.botaocirculo{
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.image{ /* mudar valores conforme necessário para encaixar no retângulo da página */
+  max-height: 200px;
+  max-width: 200px;
 }
 
 
-.box{
-  display: flex;
+body {
+  font-family: 'Poppins', sans-serif;
 }
 
 .container {
-  max-width: auto;
-  border: none;
-  display: inline-block;
+  max-width: 500px;
+  margin: 30px auto;
   overflow: auto;
-  min-height: 20px;
-  padding: 10px;
-  position:relative;
-  color: #fff;
-  font-family: 'David', libre;
-}
-
-.parágrafo{
-  margin-bottom: 120px;
-}
-
-span{
-  color:#2E3D9E;
-  font-size: 25px;
-  font-weight: bold;
-}
-
-.borda-azul {
-  border-top: 0px solid #2E3D9E;
-  border-right: 0px solid #2E3D9E;
-  border-left: 0px solid #2E3D9E;
-  border-bottom: 11px solid #2E3D9E;
-}
-
-.title {
-  color: #EBC754;
-  fill: #2E3D9E;
-  width: auto;
-  height: 80px;
-  background-color: #2E3D9E;
-  text-align: left;
+  min-height: 300px;
+  border: 1px solid steelblue;
+  padding: 30px;
+  border-radius: 5px;
 }
 
 .header {
   display: flex;
-  max-width: 350px;
-  color: #2E3D9E;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 0px;
-  font-family: 'David', libre;
+  margin-bottom: 20px;
 }
 
 .btn {
   display: inline-block;
-  background: #2E3D9E;
+  background: #000;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -78,22 +52,6 @@ span{
   font-family: inherit;
 }
 
-.link {
-  margin: "1rem";
-  text-decoration: "none";
-  color: "white";
-  display: inline-block;
-  background: #2E3D9E;
-  color: #fff;
-  border: none;
-  padding: 20px 50px;
-  border-radius: 5px;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 15px;
-  font-family: inherit;
-  display: grid
-}
 
 .btn:focus {
   outline: none;
