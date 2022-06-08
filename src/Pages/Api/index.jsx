@@ -6,26 +6,24 @@ import "./api.css";
 
 export function Api() {
   const [data, setData] = useState({});
+  const [breed, setBreed] = useState([]);
 
   const refreshPage = () => {
     window.location.reload();
   };
 
-  //variável breed armazena a string que descreve a raça do cachorro.
-  let image
-  let breed  
-  
   useEffect(() => {
     const fetchData = async () => {
       const response = await axios.get(
         "https://dog.ceo/api/breeds/image/random"
       );
       setData(response.data["message"]);
-      image = response.data["message"];
-      breed = image.substring(30, 60).split("/")[0]
-      console.log(breed)
+      let imageText = response.data["message"];
+      setBreed(imageText.substring(30, 60).split("/")[0]);
+      console.log(imageText.substring(30, 60).split("/")[0]);
     };
     fetchData();
+    console.log(breed)
     console.log("oi");
   }, []);
 
@@ -40,7 +38,7 @@ export function Api() {
       <Link to="/" className="btn">
         Voltar para Home
       </Link>
-      <p content={breed}>Raça do cachorro vem aqui?</p>
+      <p>{breed}</p>
     </div>
   );
 }
