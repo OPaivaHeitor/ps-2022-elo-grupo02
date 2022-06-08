@@ -12,33 +12,63 @@ export function Api() {
     window.location.reload();
   };
 
-  useEffect(() => {
+  const fetchData = async () => {
+    const response = await axios.get(
+      "https://dog.ceo/api/breeds/image/random"
+    );
+    setData(response.data["message"]);
+    let imageText = response.data["message"];
+    setBreed(imageText.substring(30, 60).split("/")[0]);
+    console.log(imageText.substring(30, 60).split("/")[0]);
+  };
+
+  const updateResult = () => {
+    const inputValue = document.querySelector(".input").value
     const fetchData = async () => {
-      const response = await axios.get(
-        "https://dog.ceo/api/breeds/image/random"
-      );
-      setData(response.data["message"]);
-      let imageText = response.data["message"];
-      setBreed(imageText.substring(30, 60).split("/")[0]);
-      console.log(imageText.substring(30, 60).split("/")[0]);
+      
+      try {
+        const response = await axios.get(
+          `https://dog.ceo/api/breed/${inputValue}/images/random`
+        );
+        setData(response.data["message"]);
+        let imageText = response.data["message"];
+        setBreed(imageText.substring(30, 60).split("/")[0]);
+        console.log(imageText.substring(30, 60).split("/")[0]);
+      } catch (error) {
+          alert("Raça inválida!")
+      }
+
+ 
     };
     fetchData();
-    console.log(breed)
+  };
+
+  useEffect(() => {
+    fetchData();
+    console.log(breed);
     console.log("oi");
   }, []);
 
   return (
     <div>
       <div className="imagem">
-        <img src={data} width={500} height={500}/>
+        <img src={data} width={500} height={500} />
       </div>
-      <button onClick={refreshPage} className="btn">
+      <button onClick={fetchData} className="btn">
         Quero ver outro dog!
       </button>
       <Link to="/" className="btn">
         Voltar para Home
       </Link>
-      <p>{breed}</p>
+      <div className="searchBar">
+        <input
+          className="input"
+          type="text"
+          placeholder="Procure por uma raça específica"
+        ></input>
+        <button onClick={updateResult}>Pesquisar</button>
+      </div>
+      <p>Raça: {breed}</p>
     </div>
   );
 }
