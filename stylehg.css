@@ -1,0 +1,90 @@
+header {
+    background-color: #E6CA31;
+    padding: 20px 20px;
+}
+
+.titulo{
+    position: absolute;
+    top: 60px;
+    right: 350px;
+    text-transform: uppercase;
+    color: #2D0096;
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: none;
+}
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 80px;
+    right: -40px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #2D0096;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.enunciado {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 10px;
+}
+.enunciado h2{
+    text-transform: uppercase;
+    color: #2D0096;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    top: -150px;
+}
+.enunciado li{
+    display: inline-block;
+    width: 50%;
+    position: relative;
+
+}
+.enunciado p{
+    position: relative;
+    top: -125px;
+    color: #000000;
+    font-size: 20px;
+}
+footer{
+text-align: center;
+}
+
+.botao {
+
+    border: 1px solid #2D0096;
+    border-radius: 6px;
+    color: #E6CA31;
+    background: #2D0096;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 10px;
+    margin-left: 10px;
+}
+
+.botao a{
+    color: #E6CA31;
+    background: #2D0096;
+    text-decoration: none;
+    font-weight: bold;
+}
