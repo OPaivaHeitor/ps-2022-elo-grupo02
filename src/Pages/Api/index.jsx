@@ -54,21 +54,25 @@ export function Api() {
       <div className="imagem">
         <img src={data} width={500} height={500} />
       </div>
+      <div className="botoes">
       <button onClick={fetchData} className="btn">
         Quero ver outro dog!
       </button>
       <Link to="/" className="btn">
         Voltar para Home
       </Link>
+      </div>
       <div className="searchBar">
         <input
           className="input"
           type="text"
-          placeholder="Procure por uma raça específica"
+          placeholder="Procure por uma raça"
         ></input>
         <button onClick={updateResult}>Pesquisar</button>
       </div>
+      <div className="raca">
       <p>Raça: {breed}</p>
+      </div>
     </div>
   );
 }

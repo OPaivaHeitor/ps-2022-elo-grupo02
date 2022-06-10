@@ -6,119 +6,78 @@
   padding: 0;
 }
 
-.botaocirculo{
-  border-radius: 50%;
-  padding: 20px;
-}
-
-.image{ /* mudar valores conforme necessário para encaixar no retângulo da página */
-  max-height: 200px;
-  max-width: 200px;
-}
-
-
 body {
-  font-family: 'Poppins', sans-serif;
-}
+  font-family: 'David', libre;
 
-.container {
-  max-width: 500px;
-  margin: 30px auto;
-  overflow: auto;
-  min-height: 300px;
-  border: 1px solid steelblue;
-  padding: 30px;
-  border-radius: 5px;
-}
+  background-color: #E6CA31;
 
-.header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
+  justify-content: center;
+
+  justify-items: center;
 }
 
-.btn {
-  display: inline-block;
-  background: #000;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  margin: 5px;
-  border-radius: 5px;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 15px;
-  font-family: inherit;
-}
+.imagem{ 
+  
+  margin-top: 70px;
 
+  width: 600px;
+  height: 600px;
 
-.btn:focus {
-  outline: none;
-}
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+  
+  background-color: #2E3D9E;
 
-.btn:active {
-  transform: scale(0.98);
-}
-
-.btn-block {
-  display: block;
-  width: 100%;
-}
-
-.task {
-  background: #f4f4f4;
-  margin: 5px;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-
-.task.reminder {
-  border-left: 5px solid green;
-}
-
-.task h3 {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+   
+  border-width: 25px;
+  border-color: #2E3D9E;
+
+  border-radius: 7.5%;
+  
 }
 
-.add-form {
-  margin-bottom: 40px;
+img {
+
+margin-top: 48px;
+
 }
 
-.form-control {
-  margin: 20px 0;
-}
-
-.form-control label {
-  display: block;
-}
-
-.form-control input {
-  width: 100%;
-  height: 40px;
-  margin: 5px;
-  padding: 3px 7px;
-  font-size: 17px;
-}
-
-.form-control-check {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.form-control-check label {
-  flex: 1;
-}
-
-.form-control-check input {
-  flex: 2;
-  height: 20px;
-}
-
-footer {
-  margin-top: 30px;
+.btn{
+  
   text-align: center;
+  line-height: 30px;
+
+  width: 210px;
+  height: 50px;
+
 }
+
+.botoes{
+  
+  margin-top: 2.5em;
+  display: flex;
+  justify-content: center;
+
+}
+
+.searchBar{
+  
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+
+}
+
+input{
+  width: 209px;
+}
+
+.raca{
+  font-size: 20px;
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+}
+
