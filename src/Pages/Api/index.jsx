@@ -56,11 +56,9 @@ export function Api() {
       </div>
       <div className="botoes">
       <button onClick={fetchData} className="btn">
-        Quero ver outro dog!
+        Quero ver outro cão!
       </button>
-      <Link to="/" className="btn">
-        Voltar para Home
-      </Link>
+      <button className="botaao"><Link to="/" className="btnh">Voltar para Home</Link></button>
       </div>
       <div className="searchBar">
         <input
@@ -68,10 +66,10 @@ export function Api() {
           type="text"
           placeholder="Procure por uma raça"
         ></input>
-        <button onClick={updateResult} class="btn2">Pesquisar</button>
+        <button onClick={updateResult} className="btnp">Pesquisar</button>
       </div>
       <div className="raca">
-      <p>Raça: {breed}</p>
+      <p className="resposta">Raça: {breed}</p>
       </div>
     </div>
   );

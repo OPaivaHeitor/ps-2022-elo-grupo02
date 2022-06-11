@@ -43,9 +43,18 @@ img {
     font-weight: bold;
     padding: 8px 10px;
     margin-left: 10px;
+    position: relative;
+    right: 30px;
 }
 
-.btn2 {
+.btnh {
+    text-decoration: none;
+    color: black;
+}
+
+.botaao {
+    position: relative;
+    left: 30px;
     border: 1px solid #2D0096;
     border-radius: 6px;
     color: #E6CA31;
@@ -56,10 +65,28 @@ img {
     margin-left: 10px;
 }
 
+.botaao a {
+    color: #E6CA31;
+    background: #2D0096;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 .botoes {
     margin-top: 2.5em;
     display: flex;
     justify-content: center;
+}
+
+.btnp {
+    border: 1px solid #2D0096;
+    border-radius: 6px;
+    color: #E6CA31;
+    background: #2D0096;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 10px;
+    margin-left: 10px;
 }
 
 .searchBar {
@@ -77,4 +104,9 @@ input {
     margin-top: 1em;
     display: flex;
     justify-content: center;
+}
+
+.resposta {
+    position: relative;
+    top: -10px;
 }
