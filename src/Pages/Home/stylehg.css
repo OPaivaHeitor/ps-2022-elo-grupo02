@@ -1,0 +1,138 @@
+                header {
+                    position: absolute;
+                    background-color: #E6CA31;
+                    padding: 0px 300px;
+                }
+                
+                .titulo {
+                    position: absolute;
+                    top: 60px;
+                    right: 350px;
+                    text-transform: uppercase;
+                    color: #2D0096;
+                    font-weight: bold;
+                    font-size: 50px;
+                    text-decoration: none;
+                }
+                
+                .caixa {
+                    position: relative;
+                    width: 940px;
+                    margin: 0 auto;
+                }
+                
+                .caixa img {
+                    width: 8%;
+                }
+                
+                nav {
+                    position: absolute;
+                    top: 80px;
+                    right: -40px;
+                }
+                
+                nav li {
+                    display: inline;
+                    margin: 0 0 0 15px;
+                }
+                
+                nav a {
+                    text-transform: uppercase;
+                    color: #2D0096;
+                    font-weight: bold;
+                    font-size: 15px;
+                    text-decoration: none;
+                }
+                
+                nav a:hover {
+                    text-decoration: underline;
+                }
+                
+                .botaoo {
+                    position: relative;
+                    top: -70px;
+                    left: 900px;
+                    border: 1px solid #2D0096;
+                    border-radius: 6px;
+                    color: #E6CA31;
+                    background: #2D0096;
+                    text-decoration: none;
+                    font-weight: bold;
+                    padding: 8px 10px;
+                    margin-left: 10px;
+                }
+                
+                .botaoo a {
+                    color: #E6CA31;
+                    background: #2D0096;
+                    text-decoration: none;
+                    font-weight: bold;
+                }
+                
+                main {
+                    position: relative;
+                    top: 500px;
+                }
+                
+                .enunciado {
+                    width: 940px;
+                    margin: 0 auto;
+                    padding: 50px 10px;
+                }
+                
+                .enunciado h2 {
+                    text-transform: uppercase;
+                    color: #2D0096;
+                    font-weight: bold;
+                    font-size: 28px;
+                    text-decoration: none;
+                    position: relative;
+                    top: -250px;
+                }
+                
+                .enunciado li {
+                    display: inline-block;
+                    width: 50%;
+                    position: relative;
+                    left: 200px;
+                }
+                
+                .enunciado p {
+                    position: relative;
+                    top: -185px;
+                    color: #000000;
+                    font-size: 20px;
+                }
+                
+                .imaagem {
+                    position: relative;
+                    top: 290px;
+                    right: 200px;
+                }
+                
+                footer {
+                    position: absolute;
+                    top: 830px;
+                }
+                
+                .botao {
+                    border: 1px solid #2D0096;
+                    border-radius: 6px;
+                    color: #E6CA31;
+                    background: #2D0096;
+                    text-decoration: none;
+                    font-weight: bold;
+                    padding: 8px 10px;
+                    margin-left: 10px;
+                }
+                
+                .botao a {
+                    color: #E6CA31;
+                    background: #2D0096;
+                    text-decoration: none;
+                    font-weight: bold;
+                }
+                
+                body {
+                    background: aliceblue;
+                }

@@ -1,83 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
-
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  font-family: 'David', libre;
-
-  background-color: #E6CA31;
-
-  display: flex;
-  justify-content: center;
-
-  justify-items: center;
+    font-family: 'David', libre;
+    background-color: #E6CA31;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
 }
 
-.imagem{ 
-  
-  margin-top: 70px;
-
-  width: 600px;
-  height: 600px;
-
-  box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
-  
-  background-color: #2E3D9E;
-
-  display: flex;
-  justify-content: center;
-   
-  border-width: 25px;
-  border-color: #2E3D9E;
-
-  border-radius: 7.5%;
-  
+.imagem {
+    margin-top: 70px;
+    width: 600px;
+    height: 600px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+    background-color: #2E3D9E;
+    display: flex;
+    justify-content: center;
+    border-width: 25px;
+    border-color: #2E3D9E;
+    border-radius: 7.5%;
 }
 
 img {
-
-margin-top: 48px;
-
+    margin-top: 48px;
 }
 
-.btn{
-  
-  text-align: center;
-  line-height: 30px;
-
-  width: 210px;
-  height: 50px;
-
+.btn {
+    text-align: center;
+    line-height: 30px;
+    width: 210px;
+    height: 50px;
+    border: 1px solid #2D0096;
+    border-radius: 6px;
+    color: #E6CA31;
+    background: #2D0096;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 10px;
+    margin-left: 10px;
 }
 
-.botoes{
-  
-  margin-top: 2.5em;
-  display: flex;
-  justify-content: center;
-
+.btn2 {
+    border: 1px solid #2D0096;
+    border-radius: 6px;
+    color: #E6CA31;
+    background: #2D0096;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 10px;
+    margin-left: 10px;
 }
 
-.searchBar{
-  
-  margin-top: 2em;
-  display: flex;
-  justify-content: center;
-
+.botoes {
+    margin-top: 2.5em;
+    display: flex;
+    justify-content: center;
 }
 
-input{
-  width: 209px;
+.searchBar {
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
 }
 
-.raca{
-  font-size: 20px;
-  margin-top: 1em;
-  display: flex;
-  justify-content: center;
+input {
+    width: 209px;
 }
 
+.raca {
+    font-size: 20px;
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+}

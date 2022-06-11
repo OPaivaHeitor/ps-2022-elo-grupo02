@@ -68,7 +68,7 @@ export function Api() {
           type="text"
           placeholder="Procure por uma raça"
         ></input>
-        <button onClick={updateResult}>Pesquisar</button>
+        <button onClick={updateResult} class="btn2">Pesquisar</button>
       </div>
       <div className="raca">
       <p>Raça: {breed}</p>
