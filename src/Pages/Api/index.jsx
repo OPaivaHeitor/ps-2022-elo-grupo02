@@ -56,7 +56,7 @@ export function Api() {
       </div>
       <div className="botoes">
       <button onClick={fetchData} className="btn">
-        Quero ver outro cão!
+        Quero ver outro dog!
       </button>
       <button className="botaao"><Link to="/" className="btnh">Voltar para Home</Link></button>
       </div>
